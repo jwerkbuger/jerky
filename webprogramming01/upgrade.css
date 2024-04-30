@@ -1,0 +1,167 @@
+html{scroll-behavior: smooth; }
+
+@font-face {
+    font-family: 'TTHakgyoansimKkwabaegiR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkwabaegiR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#first{
+    background: #5b5195; 
+    border-radius: 40px 40px 0 0;
+    text-align: center; 
+    font-family: 'TTHakgyoansimKkwabaegiR';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+}
+
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    font-family: 'TTLaundryGothicB';
+}
+
+/*
+.flex{
+    display:flex;
+    flex-flow:row wrap;
+    align-items:center;
+    align-items: stretch;
+}
+.child{
+    text-align: center;
+    flex:1;
+}
+*/
+header{float: left; width: 70%;}
+nav{float: left; width: 30%;}
+
+#b1{
+    clear: both;
+    background-image:url("image/bg1.jpg");
+    background-color:repeat-x; 
+    opacity: 90%;
+    text-shadow: -2px 0px white, 0px 2px white, 2px 0px white, 0px -2px white;
+}
+
+#a1{
+    display: inline-block;
+    text-align: center; 
+    background:rgb(255, 221, 147); 
+    color:black; 
+    padding:5px 10px; 
+    text-decoration: none;
+}
+#a1:hover{
+    background: black;
+    color:white;
+    font-weight:bold;
+    transition-duration: 0.2s;
+}
+
+#scheduleimg{vertical-align: middle;}
+#scheduletitle{margin-top: 20px; font-size: 25px; font-weight: bold;}
+#scheduletext{text-align: left;}
+
+table{
+    margin:auto;
+    border:3px solid;
+    border-collapse: collapse;
+    border-color:darkgray;
+    text-align:center;
+}
+  
+th,td {
+    border: 1px solid;
+    border-color:rgb(180, 180, 180);
+    text-align:center;
+}
+
+tbody{text-align:center;}
+
+#cell_web{background-color: #f5917e;}
+#cell_com{background-color: #eead70;}
+#cell_wr {background-color: #94abd7}
+#cell_py {background-color: #c6d87a}
+#cell_compr {background-color: #d19cdf}
+#cell_pypr {background-color: #9ebc85}
+#cell_m {background-color: #988ebc}
+#cell_mnm {background-color: #f4e377}
+#cell_soup {background-color: #7db2a6}
+#cell_web:hover, 
+#cell_com:hover, 
+#cell_wr:hover, 
+#cell_py:hover, 
+#cell_compr:hover, 
+#cell_pypr:hover, 
+#cell_m:hover, 
+#cell_mnm:hover, 
+#cell_soup:hover{background-color: black; color: aliceblue; font-weight: bold;}
+
+/* 
+.float(flex)1{margin:0; vertical-align:center; text-align:center;}
+#type1{float:left; width:50%; height:100%;}
+#type2{float:left; width:50%; height:100%;}
+*/
+.flex1{
+    display:flex;
+    flex-flow:row wrap;
+    align-items:stretch;
+}
+.item{
+    margin: 30px;
+    flex:1;
+}
+.ff{font-size: 15px;}
+.f{font-size: 12px;}
+
+/* 
+.float(flex)2{margin:0; vertical-align:center; text-align:center;}
+#(child2)img_witch{float:left; width:35%; height:100%;}
+#(child2)text{float:left; width:30%; height:100%;}
+#(child2)img_poser{float:right; width:35%; height:100%;}
+*/
+
+.flex2{
+    display:flex;
+    flex-flow:row wrap;
+    align-items:flex-start;
+    text-align: center;
+}
+.child2{
+    flex:1;
+}
+
+.flex3{
+    font-size: 20px;
+    text-align: center;
+    display:flex;
+    flex-flow:row wrap;
+    align-items:flex-start;
+}
+.child3{
+    flex:1;
+}
+
+.child3{
+    text-align: center; 
+    background:#b0c5ec; 
+    display:inline-block; 
+    color:black; 
+    padding:5px 10px; 
+}
+.child3:hover{background: #7196db; color:black; font-weight:bold;}
+
+footer{
+    text-align: center;
+    background: rgb(226, 234, 237);
+}
+
+.top{position: fixed; bottom: 40px; right: 30px;}
