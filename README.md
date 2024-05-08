@@ -1,5 +1,7 @@
-<div class="bacon">
-  <a>🥓</a><br>
+<div align="center">
+  <div class="bacon">
+    <a>🥓</a><br>
+  </div>
 </div>
 
 <!-- <img src="https://capsule-render.vercel.app/api?type=venom&color=94B2FF&height=150&section=header&text=🥓&fontSize=70&fontColor=000000"/> -->
