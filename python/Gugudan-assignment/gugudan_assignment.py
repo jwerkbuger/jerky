@@ -3,7 +3,7 @@ dan = int(input("최대 출력할 단 수를 입력하세요: "))
 
 if row > 0:
     if dan > 0:
-        for i in range(2, dan + 1, row): # 1단부터 -> (1, dan + 1, row)
+        for i in range(1, dan + 1, row): # 2단부터 -> (2, dan + 1, row)
 #           print("{}단".format(i))
             for j in range(1, 10):
                 for t in range(i, min(i + row, dan + 1)):
